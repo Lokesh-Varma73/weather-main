@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/Weather-Background.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover; 
+}
+
+.weather-widget {
+   
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+    width: 300px;
+    color: #333;
+    text-align: center;
+}
+
+/* Search bar */
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+
+.current-weather {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.city {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.temp h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.temp p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.icon img {
+    width: 100px;
+    margin: 10px 0;
+}
+
+.extra-info p {
+    margin: 5px 0;
+}
+
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.forecast-day {
+    text-align: center;
+}
+
+.forecast-day p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.forecast-day img {
+    width: 40px;
+    margin-bottom: 5px;
+}
