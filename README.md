@@ -1,4 +1,4 @@
-# weather-mai
+# weather-main
 Weather Forecasting Website
 This is a basic weather forecasting website that provides users with real-time weather information for any location. It fetches weather data from a weather API and displays it in a user-friendly interface.
 
